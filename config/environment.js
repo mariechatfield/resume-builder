@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'resume-builder',
     environment,
-    rootURL: '/resume-builder',
+    rootURL: '/resume-builder/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
