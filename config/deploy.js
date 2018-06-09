@@ -6,6 +6,11 @@ module.exports = function() {
     // Copy dist output to current directory (so that it can be served by Jekyll)
     cp: {
       destDir: '.'
+    },
+
+    // Deploy changes to GitHub Pages
+    git: {
+      commitMessage: 'Deployed %@'
     }
   };
 };
