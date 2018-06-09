@@ -9,11 +9,7 @@ module.exports = function(defaults) {
       themes: ['solarized']
     },
 
-    storeConfigInMeta: false,
-
-    fingerprint: {
-      enabled: false
-    }
+    storeConfigInMeta: false
   });
 
   app.import('node_modules/js-yaml/dist/js-yaml.js', {
