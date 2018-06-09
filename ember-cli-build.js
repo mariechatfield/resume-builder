@@ -7,6 +7,10 @@ module.exports = function(defaults) {
     codemirror: {
       modes: ['yaml'],
       themes: ['solarized']
+    },
+
+    fingerprint: {
+      enabled: false
     }
   });
 
