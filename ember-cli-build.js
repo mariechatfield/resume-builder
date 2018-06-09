@@ -9,6 +9,8 @@ module.exports = function(defaults) {
       themes: ['solarized']
     },
 
+    storeConfigInMeta: false,
+
     fingerprint: {
       enabled: false
     }
