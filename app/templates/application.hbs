@@ -1,3 +1,20 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="hide-when-print">
+  <div class="print-preview__wrapper">
+    <div class="print-preview">
+      <div class="print-preview--warning {{if showMargins "print-preview--warning-visible"}}">
+        {{resume-layout}}
+      </div>
+    </div>
 
-{{outlet}}
+    <div class="print-preview__tools">
+      <form>
+        <label for="showMargin">Show Print Margins</label>
+        <input id="showMargin" type="checkbox" onInput={{action (mut showMargins) value="target.checked"}}>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="show-when-print">
+  {{resume-layout}}
+</div>
