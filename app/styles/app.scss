@@ -40,14 +40,6 @@ Print Preview
 
  */
 
-.print-preview__wrapper {
-  display: flex;
-}
-
-.print-preview__tools {
-  padding: 50px;
-}
-
 .print-preview {
   flex: 0 0 var(--page-width);
   width: var(--page-width);
@@ -67,6 +59,31 @@ Print Preview
 
 .print-preview--warning-visible {
   border-color: red;
+}
+
+/*
+
+Editor Tools
+
+ */
+
+.wrapper {
+  display: flex;
+}
+
+.edit-pane {
+  padding: 20px;
+
+  fieldset {
+    margin-top: 10px;
+    border: 0;
+  }
+}
+
+.credits {
+  padding-top: 16px;
+  text-align: center;
+  font-size: smaller;
 }
 
 /*

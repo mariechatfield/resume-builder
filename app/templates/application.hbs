@@ -1,20 +1,43 @@
 <div class="hide-when-print">
-  <div class="print-preview__wrapper">
+  <div class="wrapper">
     <div class="print-preview">
       <div class="print-preview--warning {{if showMargins "print-preview--warning-visible"}}">
-        {{resume-layout}}
+        {{resume-layout resume=resumeJSON}}
       </div>
     </div>
 
-    <div class="print-preview__tools">
+    <div class="edit-pane">
       <form>
-        <label for="showMargin">Show Print Margins</label>
-        <input id="showMargin" type="checkbox" onInput={{action (mut showMargins) value="target.checked"}}>
+        <fieldset>
+          <label for="showMargin">Show Print Margins</label>
+          <input id="showMargin" type="checkbox" onInput={{action (mut showMargins) value="target.checked"}}>
+        </fieldset>
+
+
+        <fieldset>
+          <button onclick={{action (action "clear")}}>Clear Resume</button>
+        </fieldset>
+
+        <fieldset>
+          <legend><strong>Edit Resume Data:</strong></legend>
+          <label><small>Modify this YAML to automatically update the resume on the left! Print to save a PDF version.</small></label>
+          {{ivy-codemirror value=resumeYAML
+                           valueUpdated=(action (mut resumeYAML))
+                           options=(hash
+                             mode="yaml"
+                             theme="solarized"
+                             lineNumbers=true
+                             lineWrapping=true
+                             tabSize=2
+                           )}}
+        </fieldset>
       </form>
+
+      <div class="credits">Built with love and Ember.js by <a href="http://mariechatfield.com/">Marie Chatfield</a>.</div>
     </div>
   </div>
 </div>
 
 <div class="show-when-print">
-  {{resume-layout}}
+  {{resume-layout resume=resumeJSON}}
 </div>

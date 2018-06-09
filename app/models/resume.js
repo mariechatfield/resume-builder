@@ -1,4 +1,6 @@
-header:
+export const PREFILLED_RESUME =
+/* eslint-disable no-irregular-whitespace */
+`header:
   name: Marie Chatfield
   location: Relocating to Austin in September 2018
   phone: Phone available on request
@@ -67,3 +69,34 @@ projects:
     details:
       - Develop and present high-quality, engaging, and accessible technical content for beginners through experts.
       - Publish content that is consistently referenced over time; top three Medium posts have over 10k views total.
+`;
+
+export const BLANK_RESUME =
+`header:
+  name:
+  location:
+  phone:
+  links:
+    - # You can use Markdown here!
+
+education:
+  school:
+  location:
+  graduationDate:
+  degree:
+
+experience:
+  - title:
+    company:
+    location:
+    date:
+    details:
+      - # Write as many bullet points as you want!
+      - # You can use Markdown here!
+
+projects:
+  - name: # You can use Markdown here!
+    date:
+    details:
+      - # You can use Markdown here!
+`;

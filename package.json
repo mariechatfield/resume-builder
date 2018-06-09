@@ -36,7 +36,6 @@
     "ember-cli-showdown": "^4.4.2",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
-    "ember-cli-yaml-module": "^1.0.0",
     "ember-data": "~3.1.0",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
@@ -44,9 +43,13 @@
     "ember-resolver": "^4.0.0",
     "ember-source": "~3.1.0",
     "eslint-plugin-ember": "^5.0.0",
+    "ivy-codemirror": "^2.1.0",
     "loader.js": "^4.2.3"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
+  },
+  "dependencies": {
+    "js-yaml": "^3.12.0"
   }
 }
