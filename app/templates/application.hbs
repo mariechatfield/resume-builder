@@ -9,8 +9,11 @@
     <div class="edit-pane">
       <div>
         <fieldset>
-          <legend><strong>Edit Resume Data:</strong></legend>
-          <label><small>Modify this YAML to automatically update the resume on the left! Print to save a PDF version.</small></label>
+          <legend><h2>Edit Resume</h2></legend>
+          <label class="edit-pane__description">
+            <p>Modify this YAML to automatically update the resume on the left! Print to save a PDF version.</p>
+            <p>Want to customize more? Fork the <a href="https://github.com/mariechatfield/resume-builder">source code</a>.</p>
+          </label>
           {{ivy-codemirror value=resumeYAML
                            valueUpdated=(action (mut resumeYAML))
                            options=(hash
@@ -33,7 +36,10 @@
         </fieldset>
       </div>
 
-      <div class="credits">Built with love and Ember.js by <a href="http://mariechatfield.com/">Marie Chatfield</a>.</div>
+      <div class="credits">
+        <p>Built with love and Ember.js by <a href="http://mariechatfield.com/">Marie Chatfield</a>.</p>
+        <p></p>
+      </div>
     </div>
   </div>
 </div>

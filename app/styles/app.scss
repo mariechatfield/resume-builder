@@ -72,12 +72,20 @@ Editor Tools
 }
 
 .edit-pane {
-  padding: 20px;
+  padding: 0 20px;
+
+  h2 {
+    margin-bottom: 0px;
+  }
 
   fieldset {
     margin-top: 10px;
     border: 0;
   }
+}
+
+.edit-pane__description {
+  font-size: smaller;
 }
 
 .credits {
