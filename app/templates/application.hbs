@@ -12,10 +12,13 @@
           <legend><h2>Edit Resume</h2></legend>
           <label class="edit-pane__description">
             <p>Modify this YAML to automatically update the resume on the left! Print to save a PDF version.</p>
+            {{#if hasLocalStorage}}
+              <p>Any changes you make will be saved in your browser's cache — you can close this window and come back to them again later!</p>
+            {{/if}}
             <p>Want to customize more? Fork the <a href="https://github.com/mariechatfield/resume-builder">source code</a>.</p>
           </label>
           {{ivy-codemirror value=resumeYAML
-                           valueUpdated=(action (mut resumeYAML))
+                           valueUpdated=(action (action "updateResume"))
                            options=(hash
                              mode="yaml"
                              theme="solarized"
@@ -30,9 +33,9 @@
           <input id="showMargin" type="checkbox" onInput={{action (mut showMargins) value="target.checked"}}>
         </fieldset>
 
-
         <fieldset>
           <button onclick={{action (action "clear")}}>Clear Resume</button>
+          <button onclick={{action (action "loadSample")}}>Reload Sample Resume</button>
         </fieldset>
       </div>
 
