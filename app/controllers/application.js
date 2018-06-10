@@ -31,7 +31,7 @@ export default Controller.extend({
   actions: {
     updateResume(newResume) {
       this.set('resumeYAML', newResume);
-      if (this.get('hasLocalStorage')) {
+      if (this.get('hasLocalStorage')  && newResume !== BLANK_RESUME) {
         localStorage.setItem(RESUME_KEY, newResume);
       }
     },
