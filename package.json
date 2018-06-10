@@ -51,5 +51,10 @@
   },
   "dependencies": {
     "js-yaml": "^3.12.0"
+  },
+  "ember-addon": {
+    "paths": [
+      "lib/ember-cli-string-module"
+    ]
   }
 }

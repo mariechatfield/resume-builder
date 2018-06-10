@@ -1,5 +1,6 @@
 import Controller from '@ember/controller';
-import { PREFILLED_RESUME, BLANK_RESUME } from 'resume-builder/models/resume';
+import PREFILLED_RESUME from 'resume-builder/models/resumes/marie';
+import BLANK_RESUME from 'resume-builder/models/resumes/blank';
 import yaml from 'js-yaml';
 import { computed } from '@ember/object';
 

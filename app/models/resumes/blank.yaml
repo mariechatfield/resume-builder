@@ -1,0 +1,27 @@
+header:
+  name:
+  location:
+  phone:
+  links:
+    - # You can use Markdown here!
+
+education:
+  school:
+  location:
+  graduationDate:
+  degree:
+
+experience:
+  - title:
+    company:
+    location:
+    date:
+    details:
+      - # Write as many bullet points as you want!
+      - # You can use Markdown here!
+
+projects:
+  - name: # You can use Markdown here!
+    date:
+    details:
+      - # You can use Markdown here!
