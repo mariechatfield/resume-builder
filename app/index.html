@@ -13,6 +13,15 @@
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/resume-builder.css">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54073560-6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-54073560-6');
+    </script>
     {{content-for "head-footer"}}
   </head>
   <body>
