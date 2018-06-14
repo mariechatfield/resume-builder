@@ -1,4 +1,4 @@
-<div class="hide-when-print-or-mobile">
+<div class="hide-when-print-or-mobile {{if overrideMobile "force-show"}}">
   <div class="wrapper">
     <div class="print-preview">
       <div class="print-preview--warning {{if showMargins "print-preview--warning-visible"}}">
@@ -66,12 +66,13 @@
   </div>
 </div>
 
-<div class="show-when-mobile">
+<div class="show-when-mobile {{if overrideMobile "force-hide"}}">
   <div class="credits">
     <p><em>Looking to edit your own resume? Switch to a larger device! This screen size only supports viewing sample resume data.</em></p>
+    <button onclick={{action (mut overrideMobile value=true)}}>Show Full Site Anyway</button>
   </div>
 </div>
 
-<div class="show-when-print-or-mobile">
+<div class="show-when-print-or-mobile {{if overrideMobile "force-hide"}}">
   {{resume-layout resume=resumeJSON}}
 </div>

@@ -25,13 +25,21 @@ html {
   display: none;
 }
 
-@media print, only screen and (max-width: 1000px) {
+@media print, only screen and (max-width: 860px) {
   .hide-when-print-or-mobile {
     display: none;
+
+    &.force-show {
+      display: block;
+    }
   }
 
   .show-when-print-or-mobile {
     display: block;
+
+    &.force-hide {
+      display: none;
+    }
   }
 }
 
@@ -39,9 +47,13 @@ html {
   display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 860px) {
   .show-when-mobile {
     display: block;
+
+    &.force-hide {
+      display: none;
+    }
   }
 }
 
@@ -60,12 +72,6 @@ html {
         text-align: left;
       }
     }
-  }
-
-  .show-when-mobile .credits {
-    padding-top: 0;
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--color-border);
   }
 }
 
@@ -137,6 +143,13 @@ Editor Tools
   padding-top: 16px;
   text-align: center;
   font-size: smaller;
+
+  .show-when-mobile & {
+    padding-top: 0;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-border);
+  }
 }
 
 /*
