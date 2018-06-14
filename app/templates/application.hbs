@@ -28,10 +28,28 @@
                            )}}
         </fieldset>
 
-        <fieldset>
-          <label for="showMargin">Show Print Margins</label>
-          <input id="showMargin" type="checkbox" onInput={{action (mut showMargins) value="target.checked"}}>
-        </fieldset>
+        <div class="edit-pane__styles-toolbox">
+          <fieldset>
+            <label for="fontSize">Font Size (pt)</label>
+            <input id="fontSize"
+                   type="number" min="8" max="18" step="0.05"
+                   value={{readonly fontSize}}
+                   onInput={{action (action "modifyFontSize") value="target.value"}}>
+          </fieldset>
+
+          <fieldset>
+            <label for="marginSize">Margin Size (in)</label>
+            <input id="marginSize"
+                   type="number" min="0" max="1" step="0.005"
+                   value={{readonly marginSize}}
+                   onInput={{action (action "modifyMarginSize") value="target.value"}}>
+          </fieldset>
+
+          <fieldset>
+            <label for="showMargin">Show Print Margins</label>
+            <input id="showMargin" type="checkbox" onInput={{action (mut showMargins) value="target.checked"}}>
+          </fieldset>
+        </div>
 
         <fieldset>
           <button onclick={{action (action "clear")}}>Clear Resume</button>
