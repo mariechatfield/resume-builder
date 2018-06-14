@@ -13,25 +13,59 @@ html {
 
 /*
 
- Print Utilities
+ Print/Mobile Utilities
 
  */
 
-.hide-when-print {
+.hide-when-print-or-mobile {
   display: block;
 }
 
-.show-when-print {
+.show-when-print-or-mobile {
   display: none;
 }
 
-@media print {
-  .hide-when-print {
+@media print, only screen and (max-width: 1000px) {
+  .hide-when-print-or-mobile {
     display: none;
   }
 
-  .show-when-print {
+  .show-when-print-or-mobile {
     display: block;
+  }
+}
+
+.show-when-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .show-when-mobile {
+    display: block;
+  }
+}
+
+// Visual adjustments for very small screens
+@media only screen and (max-width: 480px) {
+  .show-when-print-or-mobile {
+    .resume {
+      font-size: 1em;
+      min-width: 300px;
+    }
+
+    .columns {
+      flex-direction: column;
+
+      .columns__right {
+        text-align: left;
+      }
+    }
+  }
+
+  .show-when-mobile .credits {
+    padding-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-border);
   }
 }
 
