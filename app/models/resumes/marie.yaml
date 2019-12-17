@@ -1,6 +1,6 @@
 header:
   name: Marie Chatfield
-  location: Relocating to Austin in September 2018
+  location: Austin, TX
   phone: Phone available on request
   links:
     - "[mariechatfield.com](http://mariechatfield.com)"
@@ -8,14 +8,23 @@ header:
 
 experience:
   - title: Software Engineer
+    company: Pingboard
+    location: Austin, TX
+    date: September 2018 — Present
+    details:
+      - Consistently deliver intricate front-end focused features ahead of schedule with thorough tests and error handling.
+      - Collaborate with Product team on user research, planning, scoping, and design of upcoming features.
+      - Advocate for user privacy and prioritize resolving security vulnerabilities across the application stack.
+
+  - title: Software Engineer
     company: Square
     location: San Francisco, CA
-    date: July 2015 — Present
+    date: July 2015 — August 2018
     details:
-      - Design, build, and maintain full-stack features with complex visual requirements using Ember.js, Ruby, and Java.
-      - Refactor application and infrastructure code to reduce technical debt and improve developer efficiency.
-      - Research and thoroughly document institutional knowledge and processes, for team and for shared codebases.
-      - Regularly participate in hiring process; have conducted over 100 technical interviews of industry candidates.
+      - Designed, built, and maintained full-stack features with complex visual requirements using Ember.js, Ruby, and Java.
+      - Refactored application and infrastructure code to reduce technical debt and improve developer efficiency.
+      - Researched and thoroughly documented institutional knowledge and processes, for team and for shared codebases.
+      - Regularly participated in hiring process; conducted over 100 technical interviews of industry candidates.
 
   - title: Research Assistant, Computer Science Department
     company: Rice University
@@ -23,19 +32,15 @@ experience:
     date: January—June 2015
     details:
       - Redesigned [CodeSkulptor](http://py3.codeskulptor.org/) programming tool for student usability in collaboration with a UX researcher.
-      - Contributed major improvements to [Skulpt](https://github.com/skulpt/skulpt), an open-source JavaScript implementation of Python.
-      - Rearchitected underlying type system to be more extensible, unblocking long-standing feature requests.
-      - Introduced profiling and timing tools and decreased test run time by 6%.
+      - Contributed major architectural improvements to [Skulpt](https://github.com/skulpt/skulpt), an open-source JavaScript implementation of Python.
 
   - title: Software Engineering Intern
     company: HomeAway
     location: Austin, TX
     date: June—August 2014
     details:
-      - Designed and built a single-page app with Backbone.js that rendered documentation for JavaScript packages.
-      - Integrated app with third-party APIs using OAuth2 protocol.
+      - Designed and built a single-page app with Backbone.js to dynamically render documentation for JavaScript packages.
       - Wrote exemplar documentation to demonstrate best practices and interactive code examples.
-      - Unit-tested over 90% of application with Jasmine.
 
 education:
   school: Rice University
@@ -44,26 +49,30 @@ education:
   degree: B.A. with Honors in Computer Science
 
 projects:
-  - name: Customer Feedback Tool
+  - name: Org Chart Drag & Drop Editor _(Pingboard)_
+    date: March—May 2019
+    details:
+      - Prototyped then delivered drag and drop editing layer for application with coexisting legacy and React rendering.
+      - Built Rails endpoints to abstract each edit as a single transaction, instead of two to five individual graph actions.
+      - Participated in user interviews and design discussions to develop an intuitive UX for creating and moving roles.
+
+  - name: Customer Feedback Tool _(Square)_
     date: July—October 2017
     details:
-      - Architected system to create surveys, render questions in consistent style, and collect encrypted feedback.
+      - Architected system to create surveys, render questions in a consistent style, and collect encrypted feedback.
       - Coordinated team of three engineers and a product manager; led reprioritization when requirements changed.
       - Used by over 15 teams that would otherwise build their own surveys—installation is two lines of code.
-  - name: Shared Infrastructure Improvements
-    date: January 2017 — Present
+
+  - name: Shared Infrastructure Improvements _(Square)_
+    date: January 2017 — August 2018
     details:
       - Rolled out strict Content Security Policy to existing app with over 100,000 daily users without a single disruption.
-      - Implemented new [Kochiku](https://github.com/square/kochiku) build partitioner to run tests based on files changed; up to 94% reduction in shards.
+      - Implemented CI strategy to run tests based on files changed; up to 94% reduction in workers per build.
       - Created automated reports to track and identify test flakes, which were adopted and extended by four other teams.
-  - name: "[CallMyCongress.com](https://www.callmycongress.com)"
-    date: November 2016 — Present
+
+  - name: CallMyCongress.com
+    date: November 2016 — December 2019
     details:
-      - Built and maintain open-source web app (Ember.js and Node/Express, automated Heroku deploy pipeline).
-      - Serves 2,600 monthly active users, with more than 240,000 unique users over lifetime.
+      - Built and maintained open-source web app (Ember.js and Node/Express, automated Heroku deploy pipeline).
+      - Served 2,600 monthly active users, with more than 300,000 unique users over lifetime.
       - Recommended resource in calls to action by Indivisible Guide, GitHub, Southern Poverty Law Center.
-  - name: "[Tech Talks](http://mariechatfield.com/talks/), [Tutorials](http://mariechatfield.com/tutorials/), and [Blog Posts](http://mariechatfield.com/articles/)"
-    date: February 2016 — Present
-    details:
-      - Develop and present high-quality, engaging, and accessible technical content for beginners through experts.
-      - Publish content that is consistently referenced over time; top three Medium posts have over 10,000 views total.
