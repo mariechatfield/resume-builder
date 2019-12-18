@@ -22,7 +22,11 @@ function overrideStyle(property, value) {
 
 export default Controller.extend({
   resumeJSON: computed('resumeYAML', function() {
-    return yaml.safeLoad(this.get('resumeYAML'));
+    try {
+      return yaml.safeLoad(this.get('resumeYAML'));
+    } catch (e) {
+      return null;
+    }
   }),
 
   resumeYAML: computed('hasLocalStorage', function() {
