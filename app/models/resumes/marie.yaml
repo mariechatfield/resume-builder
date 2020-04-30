@@ -1,5 +1,5 @@
 header:
-  name: Marie Chatfield
+  name: Marie Chatfield Rivas
   location: Austin, TX
   phone: Phone available on request
   links:
@@ -7,10 +7,13 @@ header:
     - "[github.com/mariechatfield](https://github.com/mariechatfield)"
 
 experience:
-  - title: Software Engineer
+  - roles:
+      - title: Senior Software Engineer
+        date: January 2020 — Present
+      - title: Front-End Software Engineer
+        date: September 2018 — January 2020
     company: Pingboard
     location: Austin, TX
-    date: September 2018 — Present
     details:
       - Consistently deliver intricate front-end focused features ahead of schedule with thorough tests and error handling.
       - Collaborate with Product team on user research, planning, scoping, and design of upcoming features.

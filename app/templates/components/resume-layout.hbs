@@ -30,6 +30,12 @@
               <div>{{job.date}}</div>
             </div>
           </div>
+          {{#each job.roles as |role|}}
+            <div class="columns">
+              <div class="columns__left"><em>{{role.title}}</em></div>
+              <div class="columns__right">{{role.date}}</div>
+            </div>
+          {{/each}}
 
           <ul class="list">
             {{#each job.details as |detail|}}
