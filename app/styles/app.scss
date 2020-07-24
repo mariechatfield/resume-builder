@@ -91,7 +91,7 @@ Print Preview
 
 .print-preview--warning {
   border: 1px dashed rgba(0, 0, 0, 0);
-  overflow: hidden;
+  overflow-y: scroll;
   margin: calc(var(--print-margin) * 1in);
   height: calc(
     var(--page-height) - (2 * var(--print-margin) * 1in)

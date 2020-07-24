@@ -15,9 +15,11 @@ experience:
     company: Pingboard
     location: Austin, TX
     details:
-      - Consistently deliver intricate front-end focused features ahead of schedule with thorough tests and error handling.
-      - Collaborate with Product team on user research, planning, scoping, and design of upcoming features.
-      - Advocate for user privacy and prioritize resolving security vulnerabilities across the application stack.
+      - Consistently deliver intricate and accessible front-end focused features ahead of schedule with thorough tests.
+      - Collaborate with Product team on user research, planning, scoping, prototyping, and design of upcoming features.
+      - Advocate for user privacy by creating processes to consider security from product planning through code review.
+      - Write detailed documentation on technical architecture and development or project management best practices.
+      - Designed technical interview question and evaluation system for internship hiring process.
 
   - title: Software Engineer
     company: Square
@@ -25,8 +27,13 @@ experience:
     date: July 2015 — August 2018
     details:
       - Designed, built, and maintained full-stack features with complex visual requirements using Ember.js, Ruby, and Java.
-      - Refactored application and infrastructure code to reduce technical debt and improve developer efficiency.
+      - Coordinated team of three engineers and a product manager for four-month project; led reprioritization efforts when requirements changed and shipped functional feature within reduced timeline.
+      - Rolled out strict Content Security Policy to existing app with over 100,000 daily users without a single disruption.
+      - Implemented changes in distributed test runner to run only files related to changes; up to 94% reduction in resources.
+      - Created automated reports to track and identify test flakes, which were adopted and extended by four other teams.
       - Researched and thoroughly documented institutional knowledge and processes, for team and for shared codebases.
+      - Designed quarterly surveys to track developer feedback for infrastructure team roadmap and key results tracking.
+      - Organized and facilitated community-building events including external technical talk events, internal panels on career levels, roundtable discussions for women in engineering, and accomplishment-tracking workshops.
       - Regularly participated in hiring process; conducted over 100 technical interviews of industry candidates.
 
   - title: Research Assistant, Computer Science Department
@@ -35,47 +42,34 @@ experience:
     date: January—June 2015
     details:
       - Redesigned [CodeSkulptor](http://py3.codeskulptor.org/) programming tool for student usability in collaboration with a UX researcher.
-      - Contributed major architectural improvements to [Skulpt](https://github.com/skulpt/skulpt), an open-source JavaScript implementation of Python.
+      - Contributed major architectural improvements to [Skulpt](https://github.com/skulpt/skulpt), an open-source JavaScript implementation of Python; rearchitected underlying class type system to be more extensible, unblocking long-standing feature requests.
+      - Introduced profiling and timing tools and decreased test run time by 6%.
 
   - title: Software Engineering Intern
     company: HomeAway
     location: Austin, TX
     date: June—August 2014
     details:
-      - Designed and built a single-page app with Backbone.js to dynamically render documentation for JavaScript packages.
+      - Designed and built a single-page app with Backbone.js to dynamically render documentation about internal NPM packages; developed user experience for cross-functional team members with different goals.
       - Wrote exemplar documentation to demonstrate best practices and interactive code examples.
 
 education:
   school: Rice University
   location: Houston, TX
-  graduationDate: Class of 2015
   degree: B.A. with Honors in Computer Science
 
 projects:
-  - name: Org Chart Drag & Drop Editor _(Pingboard)_
-    date: March—May 2019
-    details:
-      - Prototyped then delivered drag and drop editing layer for application with coexisting legacy and React rendering.
-      - Built Rails endpoints to abstract each edit as a single transaction, instead of two to five individual graph actions.
-      - Participated in user interviews and design discussions to develop an intuitive UX for creating and moving roles.
-
-  - name: Customer Feedback Tool _(Square)_
-    date: July—October 2017
-    details:
-      - Architected system to create surveys, render questions in a consistent style, and collect encrypted feedback.
-      - Coordinated team of three engineers and a product manager; led reprioritization when requirements changed.
-      - Used by over 15 teams that would otherwise build their own surveys—installation is two lines of code.
-
-  - name: Shared Infrastructure Improvements _(Square)_
-    date: January 2017 — August 2018
-    details:
-      - Rolled out strict Content Security Policy to existing app with over 100,000 daily users without a single disruption.
-      - Implemented CI strategy to run tests based on files changed; up to 94% reduction in workers per build.
-      - Created automated reports to track and identify test flakes, which were adopted and extended by four other teams.
-
   - name: CallMyCongress.com
     date: November 2016 — December 2019
     details:
       - Built and maintained open-source web app (Ember.js and Node/Express, automated Heroku deploy pipeline).
       - Served 2,600 monthly active users, with more than 300,000 unique users over lifetime.
       - Recommended resource in calls to action by Indivisible Guide, GitHub, Southern Poverty Law Center.
+
+talks:
+  - title: "[Individual Contributors Managing Interns: Name a More Iconic Duo, I’ll Wait](http://mariechatfield.com/talks/#interns)"
+    venue: Lead Dev Meetup Austin, July 2019
+  - title: "[Don’t Just Put a &lt;div&gt; On It—Use the Power of the Browser!](http://mariechatfield.com/talks/#semantic-html)"
+    venue: EmberCamp 2019
+  - title: "[Deep Dive on Ember Events](http://mariechatfield.com/talks/#ember-events)"
+    venue: EmberConf 2018, EmberFest 2017

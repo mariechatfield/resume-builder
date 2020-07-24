@@ -25,3 +25,7 @@ projects:
     date:
     details:
       - # You can use Markdown here!
+
+talks:
+  - title: # You can use Markdown here!
+    venue:

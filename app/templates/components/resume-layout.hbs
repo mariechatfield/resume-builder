@@ -50,34 +50,54 @@
       {{/each}}
     </div>
 
-    <div class="section">
-      <h3 class="section__title">Projects</h3>
-      {{#each resume.projects as |project|}}
-        <div class="section__subsection">
-          <div class="columns">
-            <div class="columns__left">
-              <div><strong>
-                {{#if (is-string project.name)}}
-                  {{markdown-to-html project.name}}
-                {{/if}}
-              </strong></div>
+    {{#if resume.projects}}
+      <div class="section">
+        <h3 class="section__title">Projects</h3>
+        {{#each resume.projects as |project|}}
+          <div class="section__subsection">
+            <div class="columns">
+              <div class="columns__left">
+                <div><strong>
+                  {{#if (is-string project.name)}}
+                    {{markdown-to-html project.name}}
+                  {{/if}}
+                </strong></div>
+              </div>
+              <div class="columns__right">
+                <div>{{project.date}}</div>
+              </div>
             </div>
-            <div class="columns__right">
-              <div>{{project.date}}</div>
-            </div>
+            <ul class="list">
+              {{#each project.details as |detail|}}
+                <li class="list__item">
+                  {{#if (is-string detail)}}
+                    {{markdown-to-html detail}}
+                  {{/if}}
+                </li>
+              {{/each}}
+            </ul>
           </div>
+        {{/each}}
+      </div>
+    {{/if}}
+
+    {{#if resume.talks}}
+      <div class="section">
+        <h3 class="section__title">Talks</h3>
+        <div class="section__subsection">
           <ul class="list">
-            {{#each project.details as |detail|}}
-              <li class="list__item">
-                {{#if (is-string detail)}}
-                  {{markdown-to-html detail}}
-                {{/if}}
+            {{#each resume.talks as |talk|}}
+                <li class="list__item">
+                  <div class="columns">
+                    <div class="columns__left"><strong>{{markdown-to-html talk.title}}</strong></div>
+                    <div class="columns__right"><em>{{markdown-to-html talk.venue}}</em></div>
+                  </div>
               </li>
             {{/each}}
           </ul>
         </div>
-      {{/each}}
-    </div>
+      </div>
+    {{/if}}
 
     <div class="section">
       <h3 class="section__title">Education</h3>
