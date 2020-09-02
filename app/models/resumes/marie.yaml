@@ -15,11 +15,13 @@ experience:
     company: Pingboard
     location: Austin, TX
     details:
-      - Consistently deliver intricate and accessible front-end focused features ahead of schedule with thorough tests.
-      - Collaborate with Product team on user research, planning, scoping, prototyping, and design of upcoming features.
-      - Advocate for user privacy by creating processes to consider security from product planning through code review.
-      - Write detailed documentation on technical architecture and development or project management best practices.
+      - Consistently deliver intricate and accessible front-end focused features ahead of schedule using React and Ruby.
+      - Prototype complex features to provide clearer estimates on risks and requirements, then ship polished versions—including mobile-ready drag-and-drop editor for the org chart and Slack slash commands with account binding.
+      - Collaborate with Product team on user research, discovery, scoping, design, and usage metrics of upcoming projects.
+      - Write thorough tests and detailed documentation on development processes and technical architecture.
+      - Developed template to assess and mitigate various security and privacy risks; now adapted into product planning.
       - Designed technical interview question and evaluation system for internship hiring process.
+      - Managed intern during summer 2019; held weekly 1:1s for feedback and provided mid-point and final review.
 
   - title: Software Engineer
     company: Square
@@ -35,6 +37,7 @@ experience:
       - Designed quarterly surveys to track developer feedback for infrastructure team roadmap and key results tracking.
       - Organized and facilitated community-building events including external technical talk events, internal panels on career levels, roundtable discussions for women in engineering, and accomplishment-tracking workshops.
       - Regularly participated in hiring process; conducted over 100 technical interviews of industry candidates.
+      - Managed intern during summer 2017; held weekly 1:1s for feedback and provided mid-point and final review.
 
   - title: Research Assistant, Computer Science Department
     company: Rice University
@@ -42,7 +45,7 @@ experience:
     date: January—June 2015
     details:
       - Redesigned [CodeSkulptor](http://py3.codeskulptor.org/) programming tool for student usability in collaboration with a UX researcher.
-      - Contributed major architectural improvements to [Skulpt](https://github.com/skulpt/skulpt), an open-source JavaScript implementation of Python; rearchitected underlying class type system to be more extensible, unblocking long-standing feature requests.
+      - Rearchitectured class type system of [Skulpt](https://github.com/skulpt/skulpt) project to be more extensible and unblock long-standing feature requests.
       - Introduced profiling and timing tools and decreased test run time by 6%.
 
   - title: Software Engineering Intern
@@ -50,8 +53,8 @@ experience:
     location: Austin, TX
     date: June—August 2014
     details:
-      - Designed and built a single-page app with Backbone.js to dynamically render documentation about internal NPM packages; developed user experience for cross-functional team members with different goals.
-      - Wrote exemplar documentation to demonstrate best practices and interactive code examples.
+      - Designed and built a single-page app with Backbone.js to dynamically render documentation for internal packages.
+      - Used GitHub API to fetch documentation from package repos; added support for interactive code examples.
 
 education:
   school: Rice University
