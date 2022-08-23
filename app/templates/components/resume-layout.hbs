@@ -2,6 +2,9 @@
   <div class="resume">
     <div class="section header">
       <h1 class="name">{{resume.header.name}}</h1>
+      {{#if resume.header.subtitle}}
+        <h2 class="subtitle">{{resume.header.subtitle}}</h2>
+      {{/if}}
       <div class="columns">
         <div class="columns__left">
           <div>{{resume.header.phone}}</div>
@@ -83,7 +86,7 @@
 
     {{#if resume.talks}}
       <div class="section">
-        <h3 class="section__title">Talks</h3>
+        <h3 class="section__title">Talks & Blogs</h3>
         <div class="section__subsection">
           <ul class="list">
             {{#each resume.talks as |talk|}}

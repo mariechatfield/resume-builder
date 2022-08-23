@@ -181,8 +181,12 @@ Editor Tools
   .name {
     font-family: var(--font-header);
     line-height: 1.2em;
-    text-transform: uppercase;
     margin: 0 0 0.5em;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    margin: 0.5rem 0;
   }
 
   .information-columns {
