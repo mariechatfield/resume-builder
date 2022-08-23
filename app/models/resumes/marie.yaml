@@ -17,12 +17,13 @@ experience:
     location: Austin, TX
     details:
       - Plan, implement, and coordinate delivery of complex projects (from page-level redesigns to access control changes) in collaboration with design, product, customer success, and marketing.
-      - Develop and maintain full-stack features with React, Node.js, Java, Lucene, and ElasticSearch—including custom grammar/parsers and grammars and improved search result relevancy.
-      - Established product release process for changing common UX with minimal user frustration, including in-app education, external blog posts, internal enablement videos, and dashboard analytics to track adoption.
+      - Develop and maintain full-stack features with React, Node.js, Java, and ElasticSearch—including adding support for custom search grammar via Lucene parsers and increasing relevancy of search results.
+      - Established product release process for changing common UX with minimal user frustration, including in-app education, external blog posts, internal enablement videos, and analytics dashboards to track adoption.
       - Create innovative demos to demonstrate flexibility of core product with familiar domains (recipe collection, movie characters) and to cultivate curiosity and delight across the company; several demos now referenced in external calls.
       - Identify process needs within growing team and build consensus around lightweight practices to reduce oncall burden, and to improve developer documentation, asynchronous communication, and onboarding efficiency.
-      - Develop and evangelize educational resources, written and recorded, on web accessibility, React Hooks best practices, CSS fundamentals, service architecture, and more.
-      - Won peer-nominated and executive-selected Culture Award in Q4 2021 for company-wide impact and advocacy.
+      - Develop and evangelize educational resources—written and recorded—on web accessibility, React Hooks best practices, CSS fundamentals, service architecture, and more.
+      - Won peer-nominated and executive-selected Culture Award in Q4 2021 for company-wide impact.
+      - Won inaugural award nominated by members of the Customer Success team in Q4 2021 for customer advocacy.
 
   - roles:
       - title: Senior Software Engineer
@@ -33,7 +34,7 @@ experience:
     location: Austin, TX
     details:
       - Consistently delivered intricate and accessible front-end focused features ahead of schedule using React and Ruby.
-      - Proposed peer-recognition feature via product brief, then implemented front-end and Slack features when prioritized.
+      - Proposed peer-recognition feature via product brief, then implemented front-end interactions when prioritized.
       - Prototyped complex features to provide clearer estimates on risks and requirements, then shipped polished versions—including mobile-ready drag-and-drop editor for the org chart and Slack slash commands with account binding.
       - Collaborated with Product team on user research, discovery, scoping, design, and usage metrics of upcoming projects.
       - Advocated for user privacy by creating processes to consider security from product planning through code review.
