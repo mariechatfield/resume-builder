@@ -40,15 +40,21 @@
             </div>
           {{/each}}
 
-          <ul class="list">
-            {{#each job.details as |detail|}}
-              <li class="list__item">
-                {{#if (is-string detail)}}
-                  {{markdown-to-html detail}}
-                {{/if}}
-              </li>
-            {{/each}}
-          </ul>
+          {{#if (is-string job.details)}}
+            <div class="job_details">
+              {{markdown-to-html job.details}}
+            </div>
+          {{else}}
+            <ul class="list">
+              {{#each job.details as |detail|}}
+                <li class="list__item">
+                  {{#if (is-string detail)}}
+                    {{markdown-to-html detail}}
+                  {{/if}}
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
         </div>
       {{/each}}
     </div>

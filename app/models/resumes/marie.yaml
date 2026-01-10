@@ -1,8 +1,8 @@
 header:
   name: Marie Chatfield Rivas
-  subtitle: Product-focused staff engineer with expertise in holistic feature delivery and knowledge sharing.
-  location: Austin, TX
-  phone: Phone available on request
+  subtitle: Staff engineer who ships delightful, complex products while elevating team cohesion and capacity.
+  location: Seattle, WA
+  phone: they/them/theirs
   links:
     - "[mariechatfield.com](http://mariechatfield.com)"
     - "[github.com/mariechatfield](https://github.com/mariechatfield)"
@@ -10,20 +10,19 @@ header:
 experience:
   - roles:
       - title: Staff Software Engineer
-        date: August 2022 — Present
+        date: August 2022 — present
       - title: Senior Software Engineer
         date: November 2020 — August 2022
-    company: data.world
-    location: Austin, TX
-    details:
-      - Plan, implement, and coordinate delivery of complex projects (from page-level redesigns to access control changes) in collaboration with design, product, customer success, and marketing.
-      - Develop and maintain full-stack features with React, Node.js, Java, and ElasticSearch—including adding support for custom search grammar via Lucene parsers and increasing relevancy of search results.
-      - Established product release process for changing common UX with minimal user frustration, including in-app education, external blog posts, internal enablement videos, and analytics dashboards to track adoption.
-      - Create innovative demos to demonstrate flexibility of core product with familiar domains (recipe collection, movie characters) and to cultivate curiosity and delight across the company; several demos now referenced in external calls.
-      - Identify process needs within growing team and build consensus around lightweight practices to reduce oncall burden, and to improve developer documentation, asynchronous communication, and onboarding efficiency.
-      - Develop and evangelize educational resources—written and recorded—on web accessibility, React Hooks best practices, CSS fundamentals, service architecture, and more.
-      - Won peer-nominated and executive-selected Culture Award in Q4 2021 for company-wide impact.
-      - Won inaugural award nominated by members of the Customer Success team in Q4 2021 for customer advocacy.
+    company: data.world (acquired by ServiceNow in July 2025)
+    location: Remote
+    details: |
+      I am a fullstack contributor to our knowledge-graph-based data catalog with a special focus on search and discovery. I have:
+      - Shipped high-impact, high-risk initiatives by designing an entire program around them—not just the code, but the communication, education, and rollout strategy needed to minimize customer disruption while maximizing adoption for major UX overhauls and foundational technical changes.
+      - Brought thoughtful judgment to architectural decisions and evaluated tradeoffs with awareness of customer needs and business priorities. Built full-stack systems with React, Node.js, Java, Elasticsearch, and LLM integrations, with particular attention to accessibility and semantic HTML/CSS.
+      - Cultivated deep cross-functional relationships with product, design, customer success, and revenue teams by consistently delivering on commitments and making others feel heard and capable.
+      - Served as a knowledge multiplier for the team: created learning resources, internal talks, and documentation that elevate collective capability and reduce time-to-productivity for new engineers.
+      - Developed emerging talent by creating growth opportunities: partnered with engineers at various levels and collaborated with their managers to identify stretch projects and accelerate skill development.
+      - Identified systemic friction points within the team and designed lightweight practices that improve developer quality of life—reducing on-call burden, strengthening documentation standards, and accelerating onboarding.
 
   - roles:
       - title: Senior Software Engineer
@@ -32,30 +31,28 @@ experience:
         date: September 2018 — January 2020
     company: Pingboard
     location: Austin, TX
-    details:
-      - Consistently delivered intricate and accessible front-end focused features ahead of schedule using React and Ruby.
-      - Proposed peer-recognition feature via product brief, then implemented front-end interactions when prioritized.
-      - Prototyped complex features to provide clearer estimates on risks and requirements, then shipped polished versions—including mobile-ready drag-and-drop editor for the org chart and Slack slash commands with account binding.
-      - Collaborated with Product team on user research, discovery, scoping, design, and usage metrics of upcoming projects.
-      - Advocated for user privacy by creating processes to consider security from product planning through code review.
-      - Designed technical interview question and evaluation system for internship hiring process.
-      - Managed intern during summer 2019; held weekly 1:1s for feedback and provided mid-point and final review.
+    details: |
+      I worked on our graph-backed org chart and employee management product using React and Ruby, where I:
+        - Consistently shipped intricate, accessible features on time by combining rapid prototyping to derisk product decisions with polish and attention to detail—including a mobile-ready drag-and-drop editor for the org chart and Slack slash commands with account binding.
+        - Collaborated closely with product and design through discovery, scoping, and shipping—including user research, design iteration, and adoption metrics—earning trust as a partner in defining what to build.
+        - Advocated for user privacy throughout the development process, establishing practices to consider security implications from planning through code review.
+        - Designed the technical interview framework and evaluation system for engineering internship hiring, then managed an intern through structured feedback and development.
 
   - title: Software Engineer
     company: Square
     location: San Francisco, CA
     date: July 2015 — August 2018
-    details:
-      - Designed, built, and maintained full-stack features with complex visual requirements using Ember.js, Ruby, and Java.
-      - Coordinated team of three engineers and a product manager for four-month project; led reprioritization efforts when requirements changed and shipped functional feature within reduced timeline.
-      - Rolled out strict Content Security Policy to existing app with over 100,000 daily users without a single disruption.
-      - Implemented changes in distributed test runner to run only files related to changes; up to 94% reduction in resources.
-      - Created automated reports to track and identify test flakes, which were adopted and extended by four other teams.
-      - Researched and thoroughly documented institutional knowledge and processes, for team and for shared codebases.
-      - Designed quarterly surveys to track developer feedback for infrastructure team roadmap and key results tracking.
-      - Organized and facilitated community-building events including external technical talk events, internal panels on career levels, roundtable discussions for women in engineering, and accomplishment-tracking workshops.
-      - Regularly participated in hiring process; conducted over 100 technical interviews of industry candidates.
-      - Managed intern during summer 2017; held weekly 1:1s for feedback and provided mid-point and final review.
+    details: |
+      As a frontend-focused engineer building employee management features with Ember.js, Ruby, and Java, I:
+        - Designed, built, and maintained full-stack features with complex visual requirements, including coordinating a three-engineer team through a four-month project and leading reprioritization when requirements changed.
+
+      While working on a frontend infrastructure team supporting all back office software products, I:
+        - Optimized test infrastructure (up to 94% reduction in test resources), rolled out strict Content Security Policy without disruption, and created systems to identify and track test flakes—which were adopted by four other teams.
+        - Researched developer needs through quarterly surveys and documentation of institutional knowledge and processes, driving improvements to the frontend infra team's roadmap and tooling.
+
+      Beyond core responsibilities, I:
+         - Organized and facilitated community-building initiatives—external technical talks, internal career panels, women-in-engineering roundtables, and accomplishment-tracking workshops.
+         - Conducted 100+ technical interviews and managed an intern through structured feedback and development, investing significantly in hiring and growing the engineering team.
 
 education:
   school: Rice University
@@ -80,7 +77,7 @@ talks:
     venue: December 2020
   - title: "[Individual Contributors Managing Interns](http://mariechatfield.com/talks/#interns)—Developing Teams by Delegating"
     venue: Lead Dev Meetup Austin, July 2019
-  - title: "[Don’t Just Put a &lt;div&gt; On It](http://mariechatfield.com/talks/#semantic-html)—Semantic HTML for Accessibility and SEO"
+  - title: "[Don't Just Put a &lt;div&gt; On It](http://mariechatfield.com/talks/#semantic-html)—Semantic HTML for Accessibility and SEO"
     venue: EmberCamp 2019
   - title: "[Single-Page, Server-Side, Static… say what?](https://mariechatfield.com/blog/web-architecture)—Website Architecture Trade-Offs"
     venue: December 2018

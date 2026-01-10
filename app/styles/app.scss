@@ -223,7 +223,12 @@ Editor Tools
   }
 }
 
-.list {
+.list,
+.job_details ul {
   margin: 0.1em 0 0;
   padding-left: 1.75em;
+}
+
+.job_details p {
+  margin: 0.325rem 0;
 }
