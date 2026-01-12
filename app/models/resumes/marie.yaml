@@ -17,12 +17,12 @@ experience:
     location: Remote
     details: |
       I am a fullstack contributor to our knowledge-graph-based data catalog with a special focus on search and discovery. I have:
-      - Shipped high-impact, high-risk initiatives by designing an entire program around them—not just the code, but the communication, education, and rollout strategy needed to minimize customer disruption while maximizing adoption for major UX overhauls and foundational technical changes.
-      - Brought thoughtful judgment to architectural decisions and evaluated tradeoffs with awareness of customer needs and business priorities. Built full-stack systems with React, Node.js, Java, Elasticsearch, and LLM integrations, with particular attention to accessibility and semantic HTML/CSS.
-      - Cultivated deep cross-functional relationships with product, design, customer success, and revenue teams by consistently delivering on commitments and making others feel heard and capable.
-      - Served as a knowledge multiplier for the team: created learning resources, internal talks, and documentation that elevate collective capability and reduce time-to-productivity for new engineers.
-      - Developed emerging talent by creating growth opportunities: partnered with engineers at various levels and collaborated with their managers to identify stretch projects and accelerate skill development.
-      - Identified systemic friction points within the team and designed lightweight practices that improve developer quality of life—reducing on-call burden, strengthening documentation standards, and accelerating onboarding.
+      - **Shipped multiple high-impact, high-risk projects** with an emphasis on minimizing disruption while maximizing adoption. Holistic approach considers technical structure, rollout strategies, metrics, monitoring, and enablement.
+          + Navigation/IA overhauls; UX refreshes; foundational changes to ACL models and core graph APIs.
+      - **Made strategical architectural decisions** across full-stack systems (React, Node.js, Java, Elasticsearch, LLM integrations) by weighing technical tradeoffs against customer needs and business priorities.
+      - **Cultivated deep cross-functional relationships** with product, design, customer success, and revenue teams by consistently delivering on commitments and making others feel heard and capable.
+      - **Elevated team capability as a knowledge multiplier:** created learning resources, internal talks, and documentation that accelerate skill development, while partnering with engineers and their managers to create growth opportunities.
+      - **Improved developer quality of life** by identifying systemic friction points and designing lightweight practices—reducing on-call burden, strengthening documentation standards, and accelerating onboarding.
 
   - roles:
       - title: Senior Software Engineer
@@ -33,10 +33,11 @@ experience:
     location: Austin, TX
     details: |
       I worked on our graph-backed org chart and employee management product using React and Ruby, where I:
-        - Consistently shipped intricate, accessible features on time by combining rapid prototyping to derisk product decisions with polish and attention to detail—including a mobile-ready drag-and-drop editor for the org chart and Slack slash commands with account binding.
-        - Collaborated closely with product and design through discovery, scoping, and shipping—including user research, design iteration, and adoption metrics—earning trust as a partner in defining what to build.
-        - Advocated for user privacy throughout the development process, establishing practices to consider security implications from planning through code review.
-        - Designed the technical interview framework and evaluation system for engineering internship hiring, then managed an intern through structured feedback and development.
+      - **Shipped intricate, accessible features** on time by combining rapid prototyping to derisk product decisions with polish and attention to detail.
+          + Mobile-ready drag-and-drop editor for the org chart; Slack slash commands with account binding; peer kudos.
+      - **Collaborated closely with product and design** through discovery, scoping, and shipping—including user research, design iteration, and adoption metrics—earning trust as a partner in defining what to build.
+      - **Advocated for user privacy** throughout the development process, establishing practices to consider security implications from planning through code review.
+      - **Designed the technical interview framework** and evaluation system for engineering internship hiring, then managed an intern through structured feedback and development.
 
   - title: Software Engineer
     company: Square
@@ -44,15 +45,16 @@ experience:
     date: July 2015 — August 2018
     details: |
       As a frontend-focused engineer building employee management features with Ember.js, Ruby, and Java, I:
-        - Designed, built, and maintained full-stack features with complex visual requirements, including coordinating a three-engineer team through a four-month project and leading reprioritization when requirements changed.
+      - **Designed, built, and maintained full-stack features** with complex visual requirements, including coordinating a three-engineer team through a four-month project and leading reprioritization when requirements changed.
+          + Feedback survey component used by 15 other teams; timeline view of timecards.
 
       While working on a frontend infrastructure team supporting all back office software products, I:
-        - Optimized test infrastructure (up to 94% reduction in test resources), rolled out strict Content Security Policy without disruption, and created systems to identify and track test flakes—which were adopted by four other teams.
-        - Researched developer needs through quarterly surveys and documentation of institutional knowledge and processes, driving improvements to the frontend infra team's roadmap and tooling.
+      - **Enhanced frontend tooling and reliability** by optimizing test infrastructure (94% reduction in test resources) and creating systems to track test flakes—improvements which were adopted by four other teams.
+      - **Influenced team roadmap with user research** by creating quarterly surveys of developer pain points and documenting institutional knowledge and processes.
 
       Beyond core responsibilities, I:
-         - Organized and facilitated community-building initiatives—external technical talks, internal career panels, women-in-engineering roundtables, and accomplishment-tracking workshops.
-         - Conducted 100+ technical interviews and managed an intern through structured feedback and development, investing significantly in hiring and growing the engineering team.
+        - **Organized and facilitated community-building initiatives**—external technical talks, internal career panels, women-in-engineering roundtables, and accomplishment-tracking workshops.
+        - **Conducted 100+ technical interviews** and managed an intern through structured feedback and development, investing significantly in hiring and growing the engineering team.
 
 education:
   school: Rice University
